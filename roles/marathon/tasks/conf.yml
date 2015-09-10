@@ -42,7 +42,7 @@
     - key: ssl_keystore_password
       value: "{{ marathon_keystore_password }}"
     - key: http_port
-      value: 18080
+      value: "{{ marathon_port }}"
     - key: event_subscriber
       value: http_callback
     - key: hostname
